@@ -1,11 +1,19 @@
 import React from 'react';
 import './app.css';
+import Chat from './Chat';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="app">
-      <h1>hel</h1>
+    
+      {/* sidebar */}
+      <Sidebar/>
+
+      {/* chat */}
+      <Chat/>
     </div>
+
   );
 } 
 
