@@ -41,3 +41,49 @@
   display: flex;
   align-items: center;
 }
+
+.sidebar__voice,
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  background-color: #2f3135;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebar__voiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__voiceIcon {
+  color: green;
+}
+
+.sidebar__voiceInfo h3 {
+  font-size: smaller;
+  color: green;
+}
+
+.sidebar__voiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__profileInfo > h3 {
+  color: white;
+}
+
+.sidebar__profileInfo > p {
+  font-size: smaller;
+}
+
+.sidebar__profileIcons .MuiSvgIcon-root {
+  padding: 10px;
+}
