@@ -1,38 +1,43 @@
-.chatHeader__search {
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  background-color: #363a3f;
 }
 
-.chatHeader {
+.chat__messages {
+  flex: 1;
+}
+
+.chat__input {
+  color: lightgray;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  color: gray;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  border-top: 1px solid gray;
+  background-color: #474b53;
 }
 
-.chatHeader__hash {
-  color: gray;
-  font-size: 30px;
-  padding: 10px;
-}
-
-.chatHeader__left h3 {
-  display: flex;
-  align-items: center;
+.chat__input > form > input {
+  padding: 15px;
+  background: transparent;
+  border: none;
+  outline-width: 0;
+  width: 90%;
   color: white;
+  font-size: large;
 }
 
-.chatHeader__right {
-  display: flex;
-  align-items: center;
-  flex: 0.5;
-  justify-content: space-between;
+.chat__input > form {
+  flex: 1;
+}
+.chat__inputButton {
+  display: none;
 }
 
-.chatHeader > .MuiSvgIcons-root {
+.chat__inputIcons > .MuiSvgIcon-root {
   padding: 5px;
-  cursor: pointer;
-}
-
-.MuiSvgIcons-root :hover {
-  color: red;
 }

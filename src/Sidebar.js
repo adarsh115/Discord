@@ -49,7 +49,7 @@ function Sidebar() {
             </div>
 
             <div className="sidebar__profile">
-                <Avatar src="/images.jpg" className = "sidebar__avatar"/>
+                <Avatar fontSize="large" src="/images.jpg" className = "sidebar__avatar"/>
                 <div className="sidebar__profileInfo">
                     <h3>@King Cozy</h3>
                     <p>thisismyID</p>
